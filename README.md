@@ -1,6 +1,8 @@
 # DrugImprover
 We present DrugImprover, a drug optimization framework designed to improve various properties of an original drug in a robust and efficient manner. Within this workflow, we introduce the Advantage-alignment Policy Optimization (APO) algorithm to utilize the advantage preference to perform direct policy improvement under the guidance of multiple critics.
-![Presentation3_2](https://github.com/xuefeng11/DrugImprover/assets/125404521/a2fa745f-c975-49ba-bb93-2766de854a22)
+
+![Presentation3_2 (1)](https://github.com/xuefeng11/DrugImprover/assets/125404521/d49d71c0-f97f-469c-8eb1-19d756d2d16b)
+
 Preprint: TODO
 ​## Dataset
 - The datasets used in this study can be found in the `data` folder in this repository.
