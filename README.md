@@ -4,6 +4,7 @@ We present DrugImprover, a drug optimization framework designed to improve vario
 ![Presentation3_2 (1)](https://github.com/xuefeng11/DrugImprover/assets/125404521/d49d71c0-f97f-469c-8eb1-19d756d2d16b)
 
 Preprint: TODO
+
 ​## Dataset
 - The datasets used in this study can be found in the `data` folder in this repository.
   - `data/ST_MODEL`: The trained model for 3CLPro SARS-CoV-2 protease.
