@@ -5,8 +5,8 @@ We present DrugImprover, a drug optimization framework designed to improve vario
 
 Preprint: TODO
 
-​## Dataset
-- The datasets used in this study can be found in the `data` folder in this repository.
+## Dataset
+The datasets used in this study can be found in the `data` folder in this repository.
   - `data/ST_MODEL`: The trained model for 3CLPro SARS-CoV-2 protease.
   - `data/ST_MODEL_rtcb`: The trained model for RTCB Human-Ligase cancer target.
   - `data/ml.3CLPro*.csv*`: The training and validation SMILES string data docked on 3CLPro.
