@@ -13,7 +13,11 @@ The datasets used in this study can be found in the `data` folder in this reposi
   - `data/data_RCTB.csv`: The training and validation SMILES string data docked on RTCB.
   - `data/3CLPro_7BQY_A_1_F.oeb`: The 3CLPro OpenEye receptor file.
   - `data/rtcb-*.oedu`: The RTCB OpenEye receptor file.
-​
+
+**We include an extended dataset of 1 million SMILES strings, their docking scores (as determined by OpenEye FRED) to 24 COVID and 5 cancer-target receptors and surrogate model weights for each corresponding receptor.**
+Each folder in `data/COVIDRec` and `data/CancerRep` includes:
+  - `model.weights.h5`: model weights for the surrogate model
+  - `SMILES*.csv`: 1 million SMILES taken from the ZINC15 dataset and their docking score to the receptor.
 ​
 ## Installation
 On macOS, Linux:
