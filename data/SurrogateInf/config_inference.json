@@ -1,0 +1,45 @@
+{
+    "general": {
+        "batch_size": 64,
+        "cutoff": 9
+    },
+
+    "inference_data": {
+        "data": "test_smi.smi"
+    },
+    
+    "tokenization": {
+        "vocab_size": 3132,
+        "maxlen": 45,
+        "tokenizer": {
+            "category": "smilespair",
+            "spe_file": "VocabFiles/SPE_ChEMBL.txt",
+            "vocab_file": "VocabFiles/vocab_spe.txt"
+        }
+    },
+
+
+    "architecture": {
+        "compile": false,
+        "embedding": {
+            "embed_dim": 128 
+        },
+        "transformer_block": {
+            "num_blocks": 5,
+            "activation": "selu",
+            "ff_dim": 128,
+            "num_heads": 21,
+            "dr1": 0.12717945391278226,
+            "dr2": 0.12717945391278226,
+            "drop_mha": true
+        },
+        "regressor_head": {
+            "activation": "selu",
+            "dr": 0.04990303516069576
+        }
+    },
+
+    "model": {
+        "weights": "../COVIDRec/3CLPro_7BQY_A_1_F/model.weights.h5"
+    }
+}
