@@ -23,7 +23,8 @@ Each folder in `data/COVIDRec` and `data/CancerRep` includes:
 **We also provide code within `data/SurrogateInf` on how to use the surrogate model for inference.**
 
 To run for a different receptor + smiles file alter in `data/SurrogateInf/config_inference.json`:
-    - "inference_data":{"data":"test_smi.smi"} 
+    - "inference_data":{"data":"test_smi.smi"}
+
     - "model":{"weights": "model.weights.h5"}
 
 
