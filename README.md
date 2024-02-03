@@ -14,10 +14,19 @@ The datasets used in this study can be found in the `data` folder in this reposi
   - `data/3CLPro_7BQY_A_1_F.oeb`: The 3CLPro OpenEye receptor file.
   - `data/rtcb-*.oedu`: The RTCB OpenEye receptor file.
 
-**We include an extended dataset of 1 million SMILES strings, their docking scores (as determined by OpenEye FRED) to 24 COVID and 5 cancer-target receptors and surrogate model weights for each corresponding receptor.**
+**We include an extended dataset of 1 million SMILES strings from the ZINC15 dataset, their docking scores (as determined by OpenEye FRED) to 24 COVID and 5 cancer-target receptors and surrogate model weights for each corresponding receptor.**
+
 Each folder in `data/COVIDRec` and `data/CancerRep` includes:
-  - `model.weights.h5`: model weights for the surrogate model
-  - `SMILES*.csv`: 1 million SMILES taken from the ZINC15 dataset and their docking score to the receptor.
+  - `model.weights.h5`: model weights
+  - `SMILES*.csv`: 1 million SMILES their docking scores.
+
+**We also provide code within `data/SurrogateInf` on how to use the surrogate model for inference.**
+
+To run for a different receptor + smiles file alter in `data/SurrogateInf/config_inference.json`:
+    - "inference_data":{"data":"test_smi.smi"} 
+    - "model":{"weights": "model.weights.h5"}
+
+
 ​
 ## Installation
 On macOS, Linux:
