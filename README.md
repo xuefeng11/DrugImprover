@@ -44,7 +44,12 @@ If you use our work in your research, please cite these papers:
 ​
 The DrugImprover paper:
 ```bibtex
-TODO
+@inproceedings{liu2023drugimprover,
+  title={DRUGIMPROVER: Utilizing Reinforcement Learning for Multi-Objective Alignment in Drug Optimization},
+  author={Liu, Xuefeng and Jiang, Songhao and Vasan, Archit and Brace, Alexander and Gokdemir, Ozan and Brettin, Thomas and Xia, Fangfang and Foster, Ian and Stevens, Rick},
+  booktitle={NeurIPS 2023 Workshop on New Frontiers of AI for Drug Discovery and Development},
+  year={2023}
+}
 ```
 ​
 The RCTB dataset:
